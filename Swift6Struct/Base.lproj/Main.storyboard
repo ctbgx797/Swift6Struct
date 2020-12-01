@@ -59,6 +59,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
+                        <outlet property="tableView" destination="NhM-jF-dum" id="Ypu-9C-RBq"/>
                         <segue destination="uzc-qw-cHL" kind="presentation" id="lCr-wz-A7L"/>
                     </connections>
                 </viewController>
