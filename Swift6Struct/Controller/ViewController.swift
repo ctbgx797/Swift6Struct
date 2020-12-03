@@ -48,5 +48,21 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         return 200
     }
 
+    @IBAction func favButtonAction(_ sender: Any) {
+        
+        //画面遷移
+        performSegue(withIdentifier: "next", sender: nil)
+        
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        if segue.identifier == "next"{
+            
+            //
+            
+        }
+        
+    }
 }
 

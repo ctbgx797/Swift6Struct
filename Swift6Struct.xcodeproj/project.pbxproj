@@ -60,7 +60,7 @@
 			children = (
 				3F10490F25736BAE007F4139 /* AppDelegate.swift */,
 				3F10491125736BAE007F4139 /* SceneDelegate.swift */,
-				3F104928257684B2007F4139 /* Contriller */,
+				3F104928257684B2007F4139 /* Controller */,
 				3F10491525736BAE007F4139 /* Main.storyboard */,
 				3F10491825736BB2007F4139 /* Assets.xcassets */,
 				3F10491A25736BB2007F4139 /* LaunchScreen.storyboard */,
@@ -69,13 +69,13 @@
 			path = Swift6Struct;
 			sourceTree = "<group>";
 		};
-		3F104928257684B2007F4139 /* Contriller */ = {
+		3F104928257684B2007F4139 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
 				3F10491325736BAE007F4139 /* ViewController.swift */,
 				3F104925257684A6007F4139 /* NextViewController.swift */,
 			);
-			path = Contriller;
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
