@@ -23,6 +23,10 @@ class NextViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
+    }
+    
+    @IBAction func done(_ sender: Any) {
         
         person.name = nameTextField.text!
         person.shumi = shumiTextField.text!
@@ -30,11 +34,7 @@ class NextViewController: UIViewController {
         setOKDelegate?.setOk(check: person)
         dismiss(animated: true, completion: nil)
 
-
-        // Do any additional setup after loading the view.
-    }
-    
-    @IBAction func done(_ sender: Any) {
+        
     }
     
     
